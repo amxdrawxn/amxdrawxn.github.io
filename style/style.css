@@ -1,0 +1,791 @@
+/*Page 1*/
+@font-face {
+ font-family: "Lack regular";
+ src: url(../import/webfont/Lack-Regular.woff2") format("woff2"),
+        url(../import/webfont/Lack-Regular.woff") format("woff");
+}
+
+body{
+	height: 100vh;
+	overflow-y: hidden;
+}
+
+.accueil{
+	background-image: url(../import/illu1accueuil.png);
+}
+
+
+/*Header général*/
+#general{
+	width: 100vw;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 0px;
+	background-color: #B0EAE5;
+}
+/*Header cercle déco*/
+.cercle, .cercle2 {
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	border-radius: 15px;
+	margin: 20px;
+	z-index: 2;
+}
+
+/*titre page 1*/
+h1{
+	width: 800px;
+	margin: 200px auto;
+	text-align: center;
+	line-height: 130%;
+	text-transform: uppercase;
+	font-size: 3em;
+	color: #FFDC5E;
+	font-family: 'Lack-Regular';
+}
+
+/*page 1 bouton d'entrée*/
+#boutondemarrage{
+	width: 385px;
+	height: 30px;
+	padding: 20px;
+	background-color: #FFDC5E;
+	border-radius: 20px;
+	margin-top: 200px;
+	margin-left: 700px;
+	position: fixed;
+	z-index: 6;
+
+}
+ 
+
+/*lien bouton entrée*/
+#lienpage2 {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #23022E;
+	font-size: 1.6em;
+	padding: 22px;
+	z-index: 13;
+	font-family: 'Lack-Regular';
+}
+
+/*humain et memex page d'intro*/
+
+img#perso{
+	position: fixed; 
+	bottom: 10px;
+	margin-left: 300px;
+	z-index: 5;
+	
+}
+/*footer toutes pages*/
+footer{
+	position: fixed;
+	bottom: -5px;
+	right: 50px;
+	width: 100vw;
+	z-index: 2;
+}
+
+footer div{
+	width: 150px;
+	height: 60px;
+	background-color: #B0EAE5;
+	z-index: 1;
+	position: fixed;
+	bottom: 30px;
+	right: 80px;
+	border-radius: 10px; 
+}
+
+footer div h2{
+	text-transform: uppercase;
+	font-size: 1.3em;
+	margin: 15px 20px auto;
+}
+
+
+/*Début pop up page tuto*/
+#pagetuto{
+	display: none;
+	position: fixed;
+	width: 850px;
+	height: 552px;
+	top: 19vh;
+	left: 23vw;
+	background-color: white;
+	border: 10px solid #B0EAE5;
+	border-radius: 10px;
+	z-index: 8;
+
+}
+
+#pagetuto header{
+	height:50px;
+	background-color: #FFDC5E;
+	position: relative;
+	width: 850px;
+
+
+}
+
+
+/*titre page tuto 1*/
+h3{
+	padding: 15px;
+	text-align: center;
+	position: relative;
+	left: 205px;
+	font-size: 1.3em;
+	font-family: 'Lack-Regular';
+	text-transform: uppercase;
+}
+
+
+/*fermeture des pages pop up*/
+#boutonfermer{
+	position: absolute;
+	right: -10px;
+	top: -15px;
+}
+
+figure #boutonfermer{
+	width: 50%;
+	height: 50%;
+
+}
+
+
+/*page tuto 1*/
+#pagetuto div{
+	width:90%;
+	margin-top: 45px;
+	margin-left: 60px;
+	/*border: solid black;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+#paragrapheintro { 
+	position: fixed;
+	top: 350px;
+	margin-top:80px ;
+	margin-left: 350px ;
+	font-size: 1.3em;
+	font-family: 'Lack-Regular';
+}
+
+
+
+
+
+
+
+/*PAGE 2*/
+#conteneur{
+	width: 700vw;
+	height: 100vh;
+	display: flex;
+
+}
+
+/*section générale*/
+section{
+	width: 100vw;
+	height: 100vh;
+	/*order: 1px solid red;*/
+	position: relative;
+
+
+}
+
+section{
+	position: relative;
+}
+
+
+header{
+	width: 100vw;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 0px;
+	z-index: 3;
+	background-color: #B0EAE5;
+}
+
+
+h2{
+	text-transform: uppercase;
+	font-size: 1.2em;
+	text-align: center;
+	margin-top: 25px;
+	font-family: 'Lack-Regular';
+}
+
+
+
+
+
+/*style par section*/
+
+/*BACKGROUND*/
+
+
+
+#section1{
+	background-image: url(../import/illu2section.png);
+	background-size: cover;
+}
+
+
+#section2{
+	background-image: url(../import/illu3section.png);
+	background-size: cover;
+}
+
+
+#section3{
+	background-image: url(../import/illu4section.png);
+	background-size: cover;
+}
+
+
+#section4{
+	background-image: url(../import/illu5section.png);
+	background-size: cover;
+}
+
+
+#section5{
+	background-image: url(../import/illu6section.png);
+	background-size: cover;
+}
+
+
+#section6{
+	background-image: url(../import/illu7section.png);
+	background-size: cover;
+}
+
+
+#section7{
+	background-image: url(../import/illu1accueuil.png);
+	background-size: cover;
+}
+
+
+
+
+
+
+/*section 1*/
+
+#poeme1 {
+	font-size: 1.2em;
+	color: white;
+	position:absolute; ;
+	line-height: 70%;
+	top: 145px;
+	left: 250px;
+	z-index: 15;
+	font-family: 'Lack-Regular';
+}
+
+#memex1{
+	width: 300px;
+	height: 500px;
+	position: relative;
+	top: 600px;
+	left: 1300px;
+
+	z-index: 9;
+
+}
+
+#montre1 span{
+	position: relative;
+	size: 50%;
+	width: 300px;
+	height: 500px;
+	z-index: 13;
+}
+
+
+/*page pop up 1*/
+#pagesecret1{
+	display: none;
+	position: fixed;
+	width: 850px;
+	height: 552px;
+	top: 20vh;
+	left: 23vw;
+	background-color: white;
+	border: 10px solid #B0EAE5;
+	border-radius: 10px;
+	z-index: 13;
+	
+}
+
+#pagesecret1 header{
+	height:50px;
+	background-color: #FFDC5E;
+	position: relative;
+	width: 850px;
+
+}
+
+img#perso2{
+	position: fixed; 
+	bottom: 310px;
+	margin-left: 60px;
+	z-index: 5;
+}
+
+#paragraphesection1 { 
+	position: fixed;
+	margin-top: 80px;
+	margin-left: 430px;
+	line-height: 120%;
+	font-size: 1.3em;
+	font-family: 'Lack-Regular';
+}
+
+
+
+
+
+
+/*section 2*/
+
+#poeme2 {
+	font-size: 1.2em;
+	color: white;
+	position:absolute; 
+	line-height: 110%;
+	top: 130px;
+	left: 150px;
+	z-index: 15;
+	font-family: 'Lack-Regular';
+}
+
+#memex2{
+	width: 300px;
+	height: 500px;
+	position: relative;
+	top: 600px;
+	left: 300px;
+	z-index: 9;
+
+}
+
+#montre2 span{
+	position: relative;
+	size: 50%;
+	width: 300px;
+	height: 500px;
+	z-index: 13;
+}
+
+
+/*page pop up 2*/
+#pagesecret2{
+	display: none;
+	position: fixed;
+	width: 850px;
+	height: 552px;
+	top: 25vh;
+	left: 25vw;
+	background-color: white;
+	border: 10px solid #B0EAE5;
+	border-radius: 10px;
+	z-index: 13;
+	
+}
+
+#pagesecret2 header{
+	height:50px;
+	background-color: #FFDC5E;
+	position: relative;
+	width: 850px;
+
+}
+
+img#perso3{
+	position: fixed; 
+	bottom: 260px;
+	margin-left: 60px;
+	z-index: 5;
+}
+
+#paragraphesection2 { 
+	position: fixed;
+	margin-top: 65px;
+	margin-left: 430px;
+	line-height: 120%;
+	font-size: 1.3em;
+	font-family: 'Lack-Regular';
+}
+
+
+
+
+
+
+
+
+/*section 3*/
+
+#poeme3 {
+	font-size: 1.2em;
+	color: white;
+	text-align: center;
+	position:absolute; 
+	line-height: 110%;
+	top: 130px;
+	left: 750px;
+	z-index: 15;
+	font-family: 'Lack-Regular';
+}
+
+#memex3{
+	width: 300px;
+	height: 500px;
+	position: relative;
+	top: 590px;
+	left: 900px;
+	z-index: 9;
+
+}
+
+#montre3 span{
+	position: relative;
+	size: 50%;
+	width: 300px;
+	height: 500px;
+	z-index: 13;
+}
+
+
+/*page pop up 3*/
+#pagesecret3{
+	display: none;
+	position: fixed;
+	width: 850px;
+	height: 552px;
+	top: 24vh;
+	left: 25vw;
+	background-color: white;
+	border: 10px solid #B0EAE5;
+	border-radius: 10px;
+	z-index: 13;
+	
+}
+
+#pagesecret3 header{
+	height:50px;
+	background-color: #FFDC5E;
+	position: relative;
+	width: 850px;
+
+}
+
+img#perso4{
+	position: fixed; 
+	bottom: 270px;
+	margin-left: 60px;
+	z-index: 5;
+}
+
+#paragraphesection3 { 
+	position: fixed;
+	margin-top: 65px;
+	margin-left: 430px;
+	line-height: 120%;
+	font-size: 1.3em;
+	font-family: 'Lack-Regular';
+}
+
+
+/*section 4*/
+
+#poeme4 {
+	font-size: 1.2em;
+	color: white;
+	position:absolute; 
+	line-height: 110%;
+	top: 130px;
+	left: 150px;
+	z-index: 15;
+	font-family: 'Lack-Regular';
+}
+
+#memex4 {
+	width: 300px;
+	height: 500px;
+	position: relative;
+	top: 870px;
+	left: 1000px;
+	z-index: 9;
+
+}
+
+#montre4 span{
+	position: relative;
+	size: 50%;
+	width: 300px;
+	height: 500px;
+	z-index: 13;
+}
+
+
+/*page pop up 4*/
+#pagesecret4{
+	display: none;
+	position: fixed;
+	width: 850px;
+	height: 552px;
+	top: 25vh;
+	left: 25vw;
+	background-color: white;
+	border: 10px solid #B0EAE5;
+	border-radius: 10px;
+	z-index: 13;
+	
+}
+
+#pagesecret4 header{
+	height:50px;
+	background-color: #FFDC5E;
+	position: relative;
+	width: 850px;
+
+}
+
+#perso5{
+	position: fixed; 
+	bottom: 260px;
+	margin-left: 60px;
+	z-index: 5;
+}
+
+#paragraphesection4 { 
+	position: fixed;
+	margin-top: 65px;
+	margin-left: 430px;
+	line-height: 120%;
+	font-size: 1.3em;
+	font-family: 'Lack-Regular';
+}
+
+
+/*section 5*/
+
+
+#poeme5 {
+	font-size: 1.2em;
+	color: white;
+	position:absolute; 
+	text-align: center;
+	line-height: 110%;
+	top: 130px;
+	left: 750px;
+	z-index: 15;
+	font-family: 'Lack-Regular';
+}
+
+#memex5{
+	width: 300px;
+	height: 500px;
+	position: relative;
+	top: 770px;
+	left: 300px;
+
+	z-index: 9;
+
+}
+
+#montre5 span{
+	position: relative;
+	size: 50%;
+	width: 300px;
+	height: 500px;
+	z-index: 13;
+}
+
+
+/*page pop up 5*/
+#pagesecret5{
+	display: none;
+	position: fixed;
+	width: 850px;
+	height: 552px;
+	top: 25vh;
+	left: 25vw;
+	background-color: white;
+	border: 10px solid #B0EAE5;
+	border-radius: 10px;
+	z-index: 13;
+	
+}
+
+#pagesecret5 header{
+	height:50px;
+	background-color: #FFDC5E;
+	position: relative;
+	width: 850px;
+
+}
+
+#perso6{
+	position: fixed; 
+	bottom: 260px;
+	margin-left: 60px;
+	z-index: 5;
+}
+
+#paragraphesection5 { 
+	position: fixed;
+	margin-top: 65px;
+	margin-left: 430px;
+	line-height: 120%;
+	font-size: 1.3em;
+	font-family: 'Lack-Regular';
+}
+/*section 6*/
+
+#poeme6 {
+	font-size: 1.2em;
+	color: white;
+	position:absolute; 
+	line-height: 110%;
+	top: 400px;
+	left: 750px;
+	z-index: 13;
+	font-family: 'Lack-Regular';
+}
+
+#memex6{
+	width: 300px;
+	height: 500px;
+	position: relative;
+	top: 800px;
+	left: 1500px;
+	z-index: 9;
+
+}
+
+#montre6 span{
+	position: relative;
+	size: 50%;
+	width: 300px;
+	height: 500px;
+	z-index: 13;
+}
+
+/*page pop up 6*/
+#pagesecret6{
+	display: none;
+	position: fixed;
+	width: 850px;
+	height: 552px;
+	top: 20vh;
+	left: 23vw;
+	background-color: white;
+	border: 10px solid #B0EAE5;
+	border-radius: 10px;
+	z-index: 13;
+	
+}
+
+#pagesecret6 header{
+	height:50px;
+	background-color: #FFDC5E;
+	position: relative;
+	width: 850px;
+
+}
+
+img#perso7{
+	position: fixed; 
+	bottom: 310px;
+	margin-left: 60px;
+	z-index: 5;
+}
+
+#paragraphesection6 { 
+	position: fixed;
+	margin-top: 65px;
+	margin-left: 430px;
+	line-height: 120%;
+	font-size: 1.3em;
+	font-family: 'Lack-Regular';
+}
+
+/*section 7*/
+
+div #retour {
+	width: 385px;
+	height: 30px;
+	padding: 20px;
+	background-color: #FFDC5E;
+	border-radius: 20px;
+	margin-top: 450px;
+	margin-left: 700px;
+	position: relative;
+}
+
+
+
+#lienretour{
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 60px;
+	color: #23022E;
+	font-size: 1.6em;
+	padding: 22px;
+	font-family: ;
+	z-index: 13;
+	font-family: 'Lack-Regular';
+}
+
+#perso8 {
+	position: relative;
+	z-index: 16;
+	left: 1200px;
+	bottom: 50px;
+}
+
+
+
+/*SCROLL HORIZONTAL*/
+#navigationsuite{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: calc(50vh - 25px);
+	right: 30px;
+
+}
+
+
+
+#navigationprev{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: calc(50vh - 25px);
+	left: 30px;
+}
+
+
+
+
