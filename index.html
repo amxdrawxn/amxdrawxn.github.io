@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>Les machines vont-elles nous aider ?</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style/reset.css">
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+
+	</head>
+
+
+
+
+	<body class="accueil">
+
+			
+
+			<!--HEADER-->
+			<header id="general">
+
+				<div class="cercle"></div>
+				<div class="cercle2"></div>
+
+			</header>
+
+			<!--TITRE-->
+			<h1>Les Machines <br> Vont-Elles Nous Aider ?</h1>
+
+			<img id="perso" src="import/persomemex.png" alt="...">
+
+			<!--Bouton-->
+			<div id="boutondemarrage">
+				<a id="lienpage2" href="page2.html" title="Aventure">Commencer L'aventure</a> <!--lien vers la page 2-->
+			</div>
+
+			
+
+			<!--Footer-->
+			<footer>
+				<div id="tutoriel">
+					<h2>Tutoriel</h2>
+				</div>
+				<img src="import/footer.png" alt="sol de l'univers"> <!--Sol illustration 1 -->
+			</footer>
+
+
+			<!--Page de tutoriel-->
+			<div id="pagetuto">
+				<header>
+					<h3>VIENS À LA RENCONTRE DU MEMEX !</h3>
+
+					<!--Bouton fermer-->
+					<figure id="boutonfermer">
+							<span id="ferme">
+								
+							<img src="import/+.png" alt="croix de fermeture"> <!--croix pour fermer -->
+							</span>
+					</figure>
+				</header>
+
+				
+				<div>
+					<img src="import/memex1tuto.png" alt="memex tuto">  <!--Illustration memex tuto -->
+					<p id="paragrapheintro"> PENDANT TON AVENTURE... <br><br><br> Trouve le et clique sur cette machine <br>
+					pour découvrir ses secrets ! <br><br><br>Et comment il peut nous aider.</p>
+				</div>	
+			</div>	
+
+
+		
+
+		<script type="text/javascript">
+
+
+			$("#ferme").click(function(){
+				$("#pagetuto").hide();
+			});
+			$("#tutoriel").click(function(){
+				$("#pagetuto").show();
+			});
+
+		</script>
+
+	</body>
+
+
+
+</html>
